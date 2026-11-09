@@ -1,0 +1,62 @@
+{
+  "skill": "wechat-to-lark-doc",
+  "source_local_commit": "cc811da808e96fc03ec7b1e576ebcfede67bb06c",
+  "source_baseline_commit": "521342ea8eb158b0d993b407466449a35df4df24",
+  "public_repository": "https://github.com/xingyun7842/xignyun-wechat-to-lark-doc",
+  "reason": "Publish caller-configurable skill sources with an agent execution index and explicit version synchronization contract.",
+  "validation": "Python source syntax and package paths checked; no live service, credential or business operation was run.",
+  "portable_document_changes": [
+    "references/batch-archive.md",
+    "references/single-article.md"
+  ],
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "6b2284db4bf41f91faca3f7ae020c719691c8493bc1ffb16ec7b367286714371"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "sha256": "8566dc6e0c135d7181f49d48686fe1e2f74b081ae4d162677286579e7d63db37"
+    },
+    {
+      "path": "references/batch-archive.md",
+      "sha256": "dbedc5a2f6cad4d0012545233c91c51e69b2573ad7e945a87ad3f7a58e7a3071"
+    },
+    {
+      "path": "references/identity-and-classification.md",
+      "sha256": "1fc4d9b901948342dd616ca830e597257d83623f648d3ed06097a133b7dce227"
+    },
+    {
+      "path": "references/single-article.md",
+      "sha256": "adac042daa4e5db2adfee96eb360439a00de456a47a170866d260a860df61a9f"
+    },
+    {
+      "path": "scripts/batch_wechat_to_lark_doc.py",
+      "sha256": "431d9e25b13ef30f80ef732232b7c30fcb295537d34e38db3f5512b5d0e27c0f"
+    },
+    {
+      "path": "scripts/test_wechat_reliability.py",
+      "sha256": "a415d42ce984607ea92bd180410116145c76613a1eb75716d87dc3fa19ab264b"
+    },
+    {
+      "path": "scripts/wechat_reliability.py",
+      "sha256": "4ad00d06d75edcd487f32eb4fbe768d4387024d0b82d6908227a5c3cc97cf9d3"
+    },
+    {
+      "path": "scripts/wechat_to_lark_doc.py",
+      "sha256": "15ff096c7e2ba9793594f83683dae798d8168becd46102d23a4e7e544f83f2d4"
+    },
+    {
+      "path": "llms.txt",
+      "sha256": "bdf14c156ff4f54fc0ec904a95b94d2e22eae5a67f073ccb05ae3f833ed6710b"
+    },
+    {
+      "path": "PUBLISHING.md",
+      "sha256": "176d12b0dfdc674067fc7afbae5deb9f63442439e4343fd7e7769328c6502a94"
+    },
+    {
+      "path": "skill-publish.json",
+      "sha256": "606d1ca6dbf9a9b882f838bb5cc5abfc1d762166fb25ee32d7521c12b82a69ab"
+    }
+  ]
+}

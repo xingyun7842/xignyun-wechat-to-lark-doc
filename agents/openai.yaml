@@ -1,0 +1,7 @@
+interface:
+  display_name: "WeChat to Lark Doc"
+  short_description: "保存公众号正文与图片、追加评论截图，并自动分类归档到飞书知识库"
+  default_prompt: "Use $wechat-to-lark-doc to save this 微信公众号文章、保留原文图片、追加我提供的评论截图并自动归档: <link>"
+
+policy:
+  allow_implicit_invocation: true

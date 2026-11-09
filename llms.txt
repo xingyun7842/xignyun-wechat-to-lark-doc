@@ -1,0 +1,31 @@
+# wechat-to-lark-doc
+
+> Agent execution index. Archive supplied WeChat articles into the caller-selected Feishu document and wiki structure with original image placement.
+
+Read SKILL.md before use. Apply the caller's actual request and authorization; do not infer permissions from repository examples.
+
+## Required context
+
+- Inputs: the current task, permitted scope, and required source/destination paths or time window.
+- Environment: Python, the caller-configured lark-cli and the authenticated user context required by the selected route. Configure your own destination and validate existing remote identities.
+- Read only references needed by the selected mode. Resolve placeholders against the caller environment.
+- Preserve input evidence; distinguish observed facts, inferred information and unverified outcomes.
+- Verify actual saved output and the selected mode's completion criteria. A ready command, generated draft or successful process is not proof of business completion.
+
+## Authoritative entry
+
+- [SKILL.md](https://raw.githubusercontent.com/xingyun7842/xignyun-wechat-to-lark-doc/main/SKILL.md): capability, activation, mode-specific workflow and boundaries.
+
+## Execution references
+
+- [references/single-article.md](https://raw.githubusercontent.com/xingyun7842/xignyun-wechat-to-lark-doc/main/references/single-article.md): Select the single-article or browser-export route.
+- [references/batch-archive.md](https://raw.githubusercontent.com/xingyun7842/xignyun-wechat-to-lark-doc/main/references/batch-archive.md): Validate the batch manifest before independent per-article execution.
+- [references/identity-and-classification.md](https://raw.githubusercontent.com/xingyun7842/xignyun-wechat-to-lark-doc/main/references/identity-and-classification.md): Reconcile source identity and destination before creation or retry.
+- [scripts/wechat_to_lark_doc.py](https://raw.githubusercontent.com/xingyun7842/xignyun-wechat-to-lark-doc/main/scripts/wechat_to_lark_doc.py): Run the existing single-article operation with actual authorized targets.
+- [scripts/batch_wechat_to_lark_doc.py](https://raw.githubusercontent.com/xingyun7842/xignyun-wechat-to-lark-doc/main/scripts/batch_wechat_to_lark_doc.py): Use --validate-only or --dry-run before the authorized batch writes.
+
+## Maintenance
+
+- [PUBLISHING.md](https://raw.githubusercontent.com/xingyun7842/xignyun-wechat-to-lark-doc/main/PUBLISHING.md): repository binding, version reasons and synchronization checks.
+- [skill-publish.json](https://raw.githubusercontent.com/xingyun7842/xignyun-wechat-to-lark-doc/main/skill-publish.json): public repository configuration.
+- [RELEASE_MANIFEST.json](https://raw.githubusercontent.com/xingyun7842/xignyun-wechat-to-lark-doc/main/RELEASE_MANIFEST.json): source version and export checks.

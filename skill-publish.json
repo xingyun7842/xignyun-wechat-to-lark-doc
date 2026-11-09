@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "skill": "wechat-to-lark-doc",
+  "github": {
+    "owner": "xingyun7842",
+    "repository": "xignyun-wechat-to-lark-doc",
+    "default_branch": "main",
+    "visibility": "public"
+  },
+  "sync": {
+    "trigger": "validated_skill_iteration",
+    "mode": "reviewed-source-export",
+    "require_independent_local_commit": true,
+    "require_change_reason": true,
+    "require_remote_readback": true,
+    "force_push": false
+  },
+  "agent_entry": "llms.txt",
+  "local_invocation_name": "wechat-to-lark-doc"
+}
